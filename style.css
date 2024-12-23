@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.head{
+    background-color: rgba(255,190,159,255);
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    color: rgba(124,104,110,255);
+}
+header{
+    background-color: aliceblue;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 15Px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .liste{
+    display: flex;
+}
+header .liste ul{
+    padding-left: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+header .liste ul li a{
+    color: black;
+    color: rgba(167,38,50,255);
+}
+header .prana{
+    text-align: center;
+}
+header .icon{
+    display: flex;
+   
+}
+header .icon div{
+    padding-left: 25px;
+    font-size: 25px;
+    color: rgba(167,38,50,255);
+}
+header .icon .fr{
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px;
+    color: rgba(167,38,50,255);
+   
+}
+header .icon .fr a{
+    text-align: center;
+    color: rgba(167,38,50,255);
+}
+
+
+header .icon .pays{
+    margin-left: 30px;
+    font-size: 20px;
+   
+}
+header .icon .pays a{
+    color: rgba(167,38,50,255);
+}
+
+section .mix-that{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(167,38,50,255) ;
+}
+section .image-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+section .image-flex .prana img{
+    width: 250px;
+    padding-left: 10px;
+
+}
+section .image-flex .prana p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400px;
+    margin-top: 15px;
+    font-size: 22px;
+    color: rgb(97, 96, 96);
+}
+section .all-produit{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+section .all-produit a{
+    background-color: rgb(37, 37, 37);
+    padding: 15px;
+    border-radius: 7px;
+    /* text-align: center; */
+    color: white;
+}
+section .view-produit-flex{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+section .view-produit-flex img{
+    padding-left: 20px;
+    width: 420px;
+    height: 500px;
+    
+}
+section .view-produit-flex .p1{
+    position: relative;
+}
+section .view-produit-flex .p1 .Cook{
+    position: relative;
+    bottom: 150px;
+    padding-left: 90px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+section .view-produit-flex .p1 .lien{
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+    left: 25%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* image de route fix  */
+section .bacg-image-route{
+    background-image: url(image/AdobeStock_749648972_1500x.jpg);
+    width: 100%;
+    height: 800px;
+
+}
+section .text-dessus {
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+section .text-dessus h4{
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+section .text-dessus P{
+    margin-top: 10px;
+    font-family: serif;
+    line-height: 26px;
+    font-size: 19px;
+    font-weight: 400;
+}
+section .text-dessus P span{
+    text-decoration: underline;
+    
+}
